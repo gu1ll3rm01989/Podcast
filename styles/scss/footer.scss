@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/brands.css);
+$primary-font: "IBM Plex Sans",
+"sans-serif";
+$second-font:"IBM Plex Mono",
+"monospace";
+$button-color:#00F3BB 100%;
+$primary-color:#0000A3 100%;
+$secondary-color: #0000FF 100%;
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    div {
+        width: 20%;
+        display: flex;
+        justify-content: space-between;
+        a {
+            padding-left: 5%;
+        }
+    }
+}
+
+@media screen and (max-width:425px) {
+    footer {
+        margin-left: 30%;
+        display: block;
+    }
+}

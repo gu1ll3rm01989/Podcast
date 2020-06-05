@@ -1,0 +1,13 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
+}
+
+@import "./scss/header.css",
+"./scss/footer.css",
+"./scss/section1.css",
+"./scss/section2.css",
+"./scss/section3.css",
+"./scss/section4.css",
+"./scss/section5.css";

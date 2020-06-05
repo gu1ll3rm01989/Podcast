@@ -1,0 +1,13 @@
+@import url(./scss/header.css);
+@import url(./scss/footer.css);
+@import url(./scss/section1.css);
+@import url(./scss/section2.css);
+@import url(./scss/section3.css);
+@import url(./scss/section4.css);
+@import url(./scss/section5.css);
+body {
+  margin: 0%;
+  padding: 0%;
+  border: 0%; }
+
+/*# sourceMappingURL=main.css.map */

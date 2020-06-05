@@ -1,0 +1,73 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/brands.css);
+#origin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: absolute;
+  margin-left: 50%;
+  margin-bottom: -15%;
+  margin-top: -10%;
+  width: 30%; }
+  #origin h3 {
+    font-family: "IBM Plex Sans", "sans-serif";
+    font-size: 48px;
+    color: #060A24; }
+  #origin p {
+    font-family: "IBM Plex Mono", "monospace";
+    font-size: 16px;
+    color: #060A24;
+    line-height: 24px; }
+
+#vip {
+  position: absolute;
+  margin-top: -10%;
+  margin-left: 15%;
+  font-family: "IBM Plex Sans", "sans-serif";
+  font-size: 48px;
+  color: #060A24; }
+
+.section3 {
+  margin-top: 62%; }
+  .section3 img {
+    width: 33%;
+    height: 364px; }
+
+@media screen and (max-width: 425px) {
+  #origin {
+    position: absolute;
+    margin-left: 3%;
+    margin-top: 130%;
+    margin-bottom: -10%;
+    width: 100vw; }
+    #origin h3 {
+      font-family: "IBM Plex Sans", "sans-serif";
+      font-size: 36px;
+      color: #060A24;
+      line-height: 42px; }
+    #origin p {
+      font-family: "IBM Plex Mono", "monospace";
+      font-size: 14px;
+      color: #060A24;
+      line-height: 22px;
+      margin-left: 3%; }
+
+  #vip {
+    position: absolute;
+    margin-top: -35%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+    font-family: "IBM Plex Sans", "sans-serif";
+    font-size: 48px;
+    color: #060A24; }
+
+  .section3 {
+    margin-top: 270%; }
+    .section3 img {
+      width: 100vw;
+      height: 243px; } }
+
+/*# sourceMappingURL=section3.css.map */

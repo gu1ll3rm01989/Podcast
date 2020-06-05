@@ -1,0 +1,64 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap);
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Sans:600&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/brands.css);
+$primary-font: "IBM Plex Sans",
+"sans-serif";
+$second-font:"IBM Plex Mono",
+"monospace";
+$third-font:"IBM Plex Sans",
+"sans-serif";
+$button-color:#00F3BB 100%;
+$primary-color:#0000A3 100%;
+$secondary-color: #0000FF 100%;
+#topics {
+    font-family: $primary-font;
+    font-size: 48px;
+    color: #060A24;
+    margin-left: 15%;
+}
+
+.section4 {
+    margin: 5%;
+    align-content: space-between;
+    #content {
+        display: flex;
+        justify-content: space-between;
+    }
+    div {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #topics {
+        font-family: $primary-font;
+        font-size: 36px;
+        color: #060A24;
+        line-height: 42px;
+        margin-left: 5%;
+        width: 90vw;
+    }
+    .section4 {
+        margin: 0%;
+        #content {
+            display: block;
+            margin-left: 35%;
+        }
+        div {
+            display: block;
+            width: 110px;
+            img {
+                width: 104px;
+                height: 105px;
+            }
+            label {
+                font-family: $third-font;
+                font-size: 24px;
+                color: #060A24;
+                letter-spacing: 0;
+                text-align: center;
+            }
+        }
+    }
+}

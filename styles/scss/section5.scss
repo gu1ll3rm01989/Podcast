@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/brands.css);
+$primary-font: "IBM Plex Sans",
+"sans-serif";
+$second-font:"IBM Plex Mono",
+"monospace";
+$button-color:#00F3BB 100%;
+$primary-color:#0000A3 100%;
+$secondary-color: #0000FF 100%;
+.section5 {
+    display: flex;
+    flex-direction: column;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    align-items: center;
+    h2 {
+        font-family: $primary-font;
+        font-size: 48px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    #button2 {
+        background: #00F3BB;
+        width: 345px;
+        height: 20px;
+        border: #060A24 solid 1px;
+        font-family: $second-font;
+        font-size: 18px;
+        color: #060A24;
+        text-align: center;
+        line-height: 24px;
+        margin-bottom: 4%;
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width:425px) {
+    .section5 {
+        display: flex;
+        flex-direction: column;
+        background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+        clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+        align-items: center;
+        height: 200px;
+        h2 {
+            font-family: $primary-font;
+            font-size: 18px;
+            color: #FFFFFF;
+            text-align: center;
+            width: 90%;
+            margin-top: 15%;
+        }
+        #button2 {
+            background: #00F3BB;
+            width: 248px;
+            height: 48px;
+            font-family: $second-font;
+            font-size: 16px;
+            color: #060A24;
+            letter-spacing: 0;
+            text-align: center;
+            line-height: 22px;
+            text-decoration: none;
+        }
+    }
+}

@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/brands.css);
+$primary-font: "IBM Plex Sans",
+"sans-serif";
+$second-font:"IBM Plex Mono",
+"monospace";
+$button-color:#00F3BB 100%;
+$primary-color:#0000A3 100%;
+$secondary-color: #0000FF 100%;
+header {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0%;
+    menu {
+        display: flex;
+        flex-direction: row;
+        li {
+            list-style: none;
+            margin: 3%;
+            font-family: $second-font;
+            font-size: 16px;
+            color: #060A24;
+            letter-spacing: 0;
+            line-height: 28px;
+            a {
+                text-decoration: none;
+                color: #060A24;
+            }
+        }
+    }
+    #btn-menu {
+        display: none;
+        position: absolute;
+        margin-left: -700% !important;
+    }
+    label {
+        display: none;
+    }
+    img {
+        margin-left: 3%;
+        width: 24px;
+        height: 24px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    header {
+        width: 100%;
+        display: flex;
+        align-content: space-between;
+        justify-content: space-between;
+        margin: 0%;
+        menu {
+            margin-left: -700%;
+            position: absolute;
+            transition: all 0.5s;
+        }
+        #btn-menu {
+            display: none;
+            margin-left: 0%;
+        }
+        label {
+            display: flex;
+            position: relative;
+            margin-left: 85%;
+            margin-right: 0%;
+        }
+    }
+    #btn-menu:checked~menu {
+        display: block;
+        flex-direction: column;
+        transition: all 0.5 s;
+        margin-left: -11%;
+        position: absolute;
+        margin-top: 30%;
+        width: 100%;
+        background: #0000EC;
+        li {
+            color: white;
+            background: #0000EC;
+            a {
+                font-family: $second-font;
+                font-size: 16px;
+                color: #FFFFFF;
+                line-height: 28px;
+            }
+        }
+    }
+    label:hover {
+        cursor: crosshair;
+    }
+}

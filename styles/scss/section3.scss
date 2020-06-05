@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/brands.css);
+$primary-font: "IBM Plex Sans",
+"sans-serif";
+$second-font:"IBM Plex Mono",
+"monospace";
+$button-color:#00F3BB 100%;
+$primary-color:#0000A3 100%;
+$secondary-color: #0000FF 100%;
+#origin {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 50%;
+    margin-bottom: -15%;
+    margin-top: -10%;
+    width: 30%;
+    h3 {
+        font-family: $primary-font;
+        font-size: 48px;
+        color: #060A24;
+    }
+    p {
+        font-family: $second-font;
+        font-size: 16px;
+        color: #060A24;
+        line-height: 24px;
+    }
+}
+
+#vip {
+    position: absolute;
+    margin-top: -10%;
+    margin-left: 15%;
+    font-family: $primary-font;
+    font-size: 48px;
+    color: #060A24;
+}
+
+.section3 {
+    margin-top: 62%;
+    img {
+        width: 33%;
+        height: 364px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    #origin {
+        position: absolute;
+        margin-left: 3%;
+        margin-top: 130%;
+        margin-bottom: -10%;
+        width: 100vw;
+        h3 {
+            font-family: $primary-font;
+            font-size: 36px;
+            color: #060A24;
+            line-height: 42px;
+        }
+        p {
+            font-family: $second-font;
+            font-size: 14px;
+            color: #060A24;
+            line-height: 22px;
+            margin-left: 3%;
+        }
+    }
+    #vip {
+        position: absolute;
+        margin-top: -35%;
+        margin-left: 3%;
+        margin-bottom: 5%;
+        font-family: $primary-font;
+        font-size: 48px;
+        color: #060A24;
+    }
+    .section3 {
+        margin-top: 270%;
+        img {
+            width: 100vw;
+            height: 243px;
+        }
+    }
+}

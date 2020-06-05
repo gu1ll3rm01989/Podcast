@@ -1,0 +1,72 @@
+@import url(https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Sans&display=swap);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/brands.css);
+.section5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+  -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+          clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .section5 h2 {
+    font-family: "IBM Plex Sans", "sans-serif";
+    font-size: 48px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center; }
+  .section5 #button2 {
+    background: #00F3BB;
+    width: 345px;
+    height: 20px;
+    border: #060A24 solid 1px;
+    font-family: "IBM Plex Mono", "monospace";
+    font-size: 18px;
+    color: #060A24;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 4%;
+    text-decoration: none; }
+
+@media screen and (max-width: 425px) {
+  .section5 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background-image: linear-gradient(225deg, #0000FF 0%, #0000A3 100%);
+    -webkit-clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+            clip-path: polygon(0 20%, 100% 0, 100% 100%, 0 100%);
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    height: 200px; }
+    .section5 h2 {
+      font-family: "IBM Plex Sans", "sans-serif";
+      font-size: 18px;
+      color: #FFFFFF;
+      text-align: center;
+      width: 90%;
+      margin-top: 15%; }
+    .section5 #button2 {
+      background: #00F3BB;
+      width: 248px;
+      height: 48px;
+      font-family: "IBM Plex Mono", "monospace";
+      font-size: 16px;
+      color: #060A24;
+      letter-spacing: 0;
+      text-align: center;
+      line-height: 22px;
+      text-decoration: none; } }
+
+/*# sourceMappingURL=section5.css.map */
