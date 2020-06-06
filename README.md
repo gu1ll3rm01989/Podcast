@@ -7,7 +7,7 @@ Single Page
 Tecnologias HTML5 - CSS3
 
 
-Se utilizo un pre-procesador con SASS y PANDA.
+Se utilizo un pre-procesador con SASS y KOALA.
 
 
 
